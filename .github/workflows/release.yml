@@ -18,6 +18,8 @@ jobs:
   frontend-build:
     name: CI and CD
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     defaults:
       run:
